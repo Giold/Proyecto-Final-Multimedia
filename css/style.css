@@ -1,0 +1,466 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* NAV SECTION */
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    background-color: rgb(222, 224, 230);
+    
+
+}
+.logo{
+    
+    list-style: none;
+    top: 1em;
+    
+}
+.logo a{
+    text-decoration: none 
+}
+.logo img{
+    height: 200px;
+    width: 200px;
+    transform: translate(0%, -38%);
+    padding-top: 1em;
+    
+
+}
+
+.nav-links{
+    display: flex; 
+    justify-content:space-around;
+    width: 70%;
+    list-style: none;
+    transform: translate(-5%, 35%);
+    
+}
+.nav-links a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    letter-spacing: 5px;
+    font-weight: bold;
+    font-size: 15px;
+}
+/* NAV SECTION */
+
+/* HERO SECTION */
+.hero__bg{
+    display: flex;
+    width: 100%;
+}
+
+.hero__bg svg{
+    position: relative;
+    top: 0px;
+    right: 9em;
+}
+
+.hero__bg img{
+    position: relative;
+    width: 20em;
+    height: 25em;
+    top: 11em;
+}
+
+.hero__text{
+    position: relative;
+    top: -35em;
+    margin-left: 3em;
+}
+
+.hero__title{
+    font-size: 4.5rem;
+    color: #0F1F4E;
+    
+}
+
+.hero__subtitle{
+    font-size: 2rem;
+    font-weight: 400;
+    width: 40%;
+    margin: .6em 0;
+}
+
+.hero__btn{
+    background-color: #FFE0FB;
+    border: none;
+    border-radius: 10px;
+    width: 20%;
+    font-size: 1.5rem;
+    padding: .5em;
+}
+
+/* HERO SECTION */
+.articles{
+    text-align: center;
+    margin-bottom: 3em;
+}
+
+.articles h2{
+    font-size: 3rem;
+    margin-bottom: 1em;
+}
+
+.articles img{
+    width: 10em;
+}
+
+.articles__products{
+    display: flex;
+    justify-content: space-around;
+}
+
+.redes_container{
+
+    font-size: 4.5rem;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 1em;
+    background-color: #67BAFF;
+
+}
+
+.redes_container ul li{
+display: inline-block;
+margin: 0 1px;
+margin: 30px;
+height: 30px;
+text-align: center;
+}
+
+.redes_container ul li a{
+color: #fff;
+}
+
+.Telefono{
+
+    font-size: 4.5rem;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: #67BAFF;
+    color: #fff;
+
+}
+
+/*Recursivo*/
+
+@media (max-width: 1240px) {
+    .container {
+      flex-direction: column;
+      margin-top: 60px;
+    }
+
+    nav{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        min-height: 8vh;
+        background-color: rgb(226, 226, 226);
+    
+    }
+    .nav-links{
+        display: flex; 
+        justify-content:space-around;
+        width: 90%;
+        list-style: none;
+        transform: translate(0%, 35%);
+        
+    }
+    .nav-links a{
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+        letter-spacing: 5px;
+        font-weight: bold;
+        font-size: 15px;
+    }
+
+    .logo{
+    
+        list-style: none;
+        
+    }
+    .logo a{
+        text-decoration: none 
+    }
+    .logo img{
+        height: 100px;
+        width: 100px;
+        transform: translate(-5%, -35%);
+    
+    }
+    
+    /* NAV SECTION */
+    
+    /* HERO SECTION */
+    .hero__bg{
+        display: flex;
+        width: 100%;
+    }
+    
+    .hero__bg svg{
+        position: relative;
+        top: 0px;
+        right: 9em;
+    }
+    
+    .hero__bg img{
+        position: relative;
+        width: 20em;
+        height: 25em;
+        top: 11em;
+    }
+    
+    .hero__text{
+        position: relative;
+        top: -35em;
+        margin-left: 3em;
+    }
+    
+    .hero__title{
+        font-size: 2.5rem;
+        color: #0F1F4E;
+        
+    }
+    
+    .hero__subtitle{
+        font-size: 1.5rem;
+        font-weight: 400;
+        width: 40%;
+        margin: .6em 0;
+    }
+    
+    .hero__btn{
+        background-color: #FFE0FB;
+        border: none;
+        border-radius: 10px;
+        width: 20%;
+        font-size: 1.2rem;
+        padding: .5em;
+    }
+    
+    /* HERO SECTION */
+    .articles{
+        text-align: center;
+        margin-bottom: 3em;
+    }
+    
+    .articles h2{
+        font-size: 3rem;
+        margin-bottom: 1em;
+    }
+    
+    .articles img{
+        width: 10em;
+    }
+    
+    .articles__products{
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .redes_container{
+    
+        font-size: 4.5rem;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        padding: 1em;
+        background-color: #67BAFF;
+    
+    }
+    
+    .redes_container ul li{
+    display: inline-block;
+    margin: 0 1px;
+    margin: 30px;
+    height: 30px;
+    text-align: center;
+    }
+    
+    .redes_container ul li a{
+    color: #fff;
+    }
+    
+    .Telefono{
+    
+        font-size: 2.5rem;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        background-color: #67BAFF;
+        color: #fff;
+    
+    }
+
+}
+@media (max-width: 840px) {
+
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 640px) {
+    .container {
+        flex-direction: column;
+        margin-top: 60px;
+      }
+  
+      nav{
+          display: flex;
+          justify-content: space-around;
+          align-items: center;
+          min-height: 8vh;
+          background-color: rgb(226, 226, 226);
+      
+      }
+      .nav-links{
+          display: flex; 
+          justify-content:left;
+          width: 100%;
+          list-style: none;
+          transform: translate(0%, 35%);
+          
+      }
+      .nav-links a{
+          text-decoration: none;
+          color: rgb(0, 0, 0);
+          letter-spacing: 5px;
+          font-weight: bold;
+          font-size: 10px;
+      }
+  
+      .logo{
+      
+          list-style: none;
+          
+      }
+      .logo a{
+          text-decoration: none 
+      }
+      .logo img{
+          height: 100px;
+          width: 100px;
+          transform: translate(-5%, -35%);
+      
+      }
+      
+      /* NAV SECTION */
+      
+      /* HERO SECTION */
+      .hero__bg{
+          display: flex;
+          width: 100%;
+      }
+      
+      .hero__bg svg{
+          position: relative;
+          top: 0px;
+          right: 9em;
+      }
+      
+      .hero__bg img{
+          position: relative;
+          width: 19em;
+          height: 25em;
+          top: 11em;
+      }
+      
+      .hero__text{
+          position: relative;
+          top: -35em;
+          margin-left: 3em;
+      }
+      
+      .hero__title{
+          font-size: 2.5rem;
+          color: #0F1F4E;
+          
+      }
+      
+      .hero__subtitle{
+          font-size: 1.5rem;
+          font-weight: 400;
+          width: 40%;
+          margin: .6em 0;
+      }
+      
+      .hero__btn{
+          background-color: #FFE0FB;
+          border: none;
+          border-radius: 10px;
+          width: 20%;
+          font-size: 1.2rem;
+          padding: .5em;
+      }
+      
+      /* HERO SECTION */
+      .articles{
+          text-align: center;
+          margin-bottom: 3em;
+      }
+      
+      .articles h2{
+          font-size: 3rem;
+          margin-bottom: 1em;
+      }
+      
+      .articles img{
+          width: 10em;
+      }
+      
+      .articles__products{
+          display: flex;
+          justify-content: space-around;
+      }
+      
+      .redes_container{
+      
+          font-size: 4.5rem;
+          display: flex;
+          justify-content: center;
+          width: 100%;
+          padding: 1em;
+          background-color: #67BAFF;
+      
+      }
+      
+      .redes_container ul li{
+      display: inline-block;
+      margin: 0 1px;
+      margin: 30px;
+      height: 30px;
+      text-align: center;
+      }
+      
+      .redes_container ul li a{
+      color: #fff;
+      }
+      
+      .Telefono{
+      
+          font-size: 1.5rem;
+          display: flex;
+          justify-content: center;
+          width: 100%;
+          background-color: #67BAFF;
+          color: #fff;
+      }
+}
